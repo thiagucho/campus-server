@@ -5,23 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>editor enriquecido</title>
     <link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
 <body>
-<div id="editor">
-  <p>Hello World!</p>
-  <p>Some initial <strong>bold</strong> text</p>
-  <p><br /></p>
-</div>
-<button id="el-boton" onclick="guardar()">
-hace click
-</button>
 
-<div class="contenedor">
+
+<div class="contenedor container">
+  <div class="row">
+    <div class="col s12">
+      <div id="editor">
+        <p>Hola!</p>
+        <p><strong></strong></p>
+        <p><br /></p>
+      </div>
     
+    </div>
+  
+  <div class="row">
+    <div class="col s12">
+      <a class="btn-floating btn-large waves-effect waves-light red" onclick="guardar()"><i class="material-icons">send</i></a>
+    </div>
+  </div>  
+</div>
 </div>
 
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
 
