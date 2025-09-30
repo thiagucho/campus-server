@@ -1,0 +1,15 @@
+.container{
+background-color: rgb(78, 135, 189);
+box-shadow: -3px 0px 13px 6px rgba(255,252,147,0.71);
+-webkit-box-shadow: -3px 0px 13px 6px rgba(255,252,147,0.71);
+-moz-box-shadow: -3px 0px 13px 6px rgba(255,252,147,0.71);
+}
+.input-field>label{
+    color: #c03737;
+}
+input {
+ border-bottom: 1px solid #ad3636 !important;
+}
+.validate+label{
+color: #ad3636 !important;
+}
