@@ -3,6 +3,8 @@ background-color: rgb(78, 135, 189);
 box-shadow: -3px 0px 13px 6px rgba(255,252,147,0.71);
 -webkit-box-shadow: -3px 0px 13px 6px rgba(255,252,147,0.71);
 -moz-box-shadow: -3px 0px 13px 6px rgba(255,252,147,0.71);
+width: 100%;
+height: 100%;
 }
 .input-field>label{
     color: #c03737;
@@ -12,4 +14,21 @@ input {
 }
 .validate+label{
 color: #ad3636 !important;
+}
+.DivSeparador{
+    background-color: aqua;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 32px;
+    box-shadow: 5px 8px 10px 2px rgba(0,0,0,0.72);
+-webkit-box-shadow: 5px 8px 10px 2px rgba(0,0,0,0.72);
+-moz-box-shadow: 5px 8px 10px 2px rgba(0,0,0,0.72);
+}
+
+.body{
+    background-color: rgba(66, 252, 252, 0.281);
+}
+
+.btn-floating{
+    margin-left: 95%;
 }
